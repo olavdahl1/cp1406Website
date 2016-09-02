@@ -1,0 +1,336 @@
+Header {
+    background:white;
+    padding:10px 0;
+
+}
+
+*      {
+    margin:0;
+
+}
+
+h2{
+    font-size: xx-large;
+    text-align:center;
+}
+
+p {
+    font-size: 1.5vw;
+}
+body{
+    overflow-y: scroll
+
+}
+.logopic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.page-header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    display: block;
+    background-color: #62BFE4;
+}
+
+
+#page-header-text {
+    text-align:center;
+    font-size: 32pt;
+    color:white;
+}
+
+.main {
+    padding: 0;
+
+
+}
+.top-nav *{
+    font-size: 16pt;
+}
+.top-nav li {
+    display: inline;
+    float: left;
+
+}
+.top-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+.top-nav li:hover {
+
+    background-color: dimgrey;
+}
+.who-play{
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.left-who-play{
+    background-color: white;
+    display:block;
+    float:left;
+    margin-right:0;
+    max-width:640px;
+    margin-left: 10px;
+    overflow:hidden;
+
+
+}
+.who-play-header {
+    max-width: 100%;
+    margin-left: 650px;
+    margin-top:10px;
+    position: inherit;
+    display: block;
+    background-color: #62BFE4;
+    text-align: center;
+}
+
+.who-play-content{
+    padding-left:660px;
+    height:auto;
+    font-size: 1.5vw;
+
+
+
+}
+.button{
+    max-height:100%;
+    max-width:100%;
+    position: inherit;
+    display: block;
+    text-align: center;
+    height:auto;
+    margin:0;
+    padding-top:7%;
+
+}
+.button a{
+    display: inline-block;
+    background-color: #5CAACD;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: 30px;
+
+
+
+
+}
+.button a:hover{
+    background-color: #62BFE4;
+
+
+}
+.button a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button a span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button a:hover span {
+    padding-right: 25px;
+
+}
+
+.button a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.Announcements{
+    margin:0;
+    position: inherit;
+    display: block;
+    background-color: #62BFE4;
+    float:left;
+    max-width:100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+
+}
+.Announcements-header{
+    display:block;
+    margin-left: 10px;
+
+}
+.Announcements-Content{
+    display:block;
+    Margin-left: 20px;
+}
+.links-container{
+    display:inline-block;
+    margin:0;
+    float:left;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width:100%;
+}
+.links{
+    max-width:100%;
+    background-color: lightgrey;
+    position: inherit;}
+
+.links li {
+    display: inline;
+    float: top;
+
+}
+.links li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+.links li:hover {
+
+    background-color: dimgrey;
+}
+.footer{
+    display:inline-block;
+    position:inherit;
+    background-color: darkgray;
+    text-align: left;
+    width:100%;
+
+}
+.about{
+    width:100%;
+    height: 680px;
+    background-color: white;
+}
+
+.about-left{
+    height:100%;
+    float: left;
+    width: 60%;
+}
+
+.about-right {
+    float: right;
+    width: 40%;
+}
+
+.about-header{
+    width:100%;
+    margin-top:10px;
+    background-color: #62BFE4;
+    margin-bottom:10px;
+
+}
+
+.game-container{
+    width:100%;
+    height:680px;
+}
+.game-container img{
+    width:100%;
+    height:680px;
+}
+.about-sign{
+    width:100%;
+    height: 680px;
+    background-color: white;
+}
+.about-left-sign{
+    height:100%;
+    float: left;
+    width: 40%;
+
+}
+
+.about-right-sign {
+    float: right;
+    width: 60%;
+}
+
+form{
+    margin-left:20px;
+    margin-top: 10px;
+}
+.sign-button{
+    max-height:100%;
+    max-width:100%;
+    position: inherit;
+    display: block;
+
+    height:auto;
+    margin:0;
+
+
+}
+.sign-button a{
+    display: inline-block;
+    background-color: #5CAACD;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom:10px;
+
+
+
+
+}
+.sign-button a:hover{
+    background-color: #62BFE4;
+
+
+}
+.sign-button a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;}
+.player-guidline{
+    display:block;
+    margin:0;
+    background-color: lightsalmon;
+}
